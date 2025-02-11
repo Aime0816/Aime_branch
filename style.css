@@ -1,0 +1,156 @@
+body{
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+    color: #1e293b;
+   
+} 
+header{
+    background: #1e40af;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#pra{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a345e;
+}
+
+nav{
+    position: fixed;
+    top: 110px;
+    width: 100%;
+    background: #1e40af;
+    padding: 10px 0;
+    z-index: 999;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color o.3s;
+ }
+
+ nav ul li a:hover {
+    color: #facc15;
+ }
+
+ section{
+    padding: 100px 20px 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+ }
+  .course {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+
+  }
+
+  .course:hover{
+    transform: translateY(-5px);
+  }
+
+  .course img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .course h3 {
+    font-size: 1.2rem;
+    color: #1e40af;
+    margin-top: 10px;
+  }
+
+  .course p {
+    font-size: 1.1rem;
+    color: #475569;
+  }
+
+  .reg{
+    color: rgb(12, 12, 181);
+}
+.sod{
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    border-collapse: collapse ;
+    border: 0px;
+}
+.gend{
+    font-weight: bold;
+    font-size: 20px;
+}
+#radio{
+    size: 20px;
+}
+#trade{
+    padding: 4px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 6px;
+
+}
+#submit{
+    background-color: rgb(11, 19, 224);
+    border-radius: 5px;
+    width: 100%;
+    border: 0px;
+    padding: 4px;
+    font-size: 20px;
+    color: white;
+}
+
+table{
+  height: 00px;
+  weight: 900px;
+  background-color: #e7f0f0;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+#contact{
+  background-color: #5d698d;
+  border: none;
+  border-radius: 7px;
+}
+
+#fst{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+  height: 100px;
+  padding: 1rem;
+  border-radius: 30px;
+}
